@@ -1,5 +1,5 @@
 {
-  "name": "cypress-dark",
+  "name": "@colin/cypress-dark",
   "description": "Dark mode for Cypress test runner from user space",
   "version": "0.0.0-development",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
@@ -47,12 +47,10 @@
   "release": {
     "analyzeCommits": {
       "preset": "angular",
-      "releaseRules": [
-        {
-          "type": "break",
-          "release": "major"
-        }
-      ]
+      "releaseRules": [{
+        "type": "break",
+        "release": "major"
+      }]
     }
   },
   "repository": {
