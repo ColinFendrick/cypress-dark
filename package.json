@@ -1,9 +1,9 @@
 {
-  "name": "@colin/cypress-dark",
+  "name": "colin-cypress-dark",
   "description": "Dark mode for Cypress test runner from user space",
+  "license": "UNLICENSED",
   "version": "0.0.0-development",
-  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
-  "bugs": "https://github.com/bahmutov/cypress-dark/issues",
+  "author": "Colin Fendrick <colin.fendrick@gmail.com>",
   "config": {
     "pre-git": {
       "commit-msg": "simple",
@@ -31,15 +31,14 @@
     "src/*.mp3",
     "!src/*-spec.js"
   ],
-  "homepage": "https://github.com/bahmutov/cypress-dark#readme",
+  "homepage": "https://github.com/colinfendrick/cypress-dark#readme",
   "keywords": [
     "cypress",
     "cypress-io",
     "dark",
     "theme"
   ],
-  "license": "MIT",
-  "main": "src/",
+  "main": "src",
   "private": false,
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
@@ -55,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bahmutov/cypress-dark.git"
+    "url": "https://github.com/colinfendrick/cypress-dark.git"
   },
   "scripts": {
     "ban": "ban",
